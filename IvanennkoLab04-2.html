@@ -1,0 +1,100 @@
+<!-- <!doctype html>
+     <html>
+<head>
+   <meta charset="utf-8">
+   <title>4.1Рядок, що біжить</title>
+</head>  
+   <P ALІGN="CENТER">
+   <BR> <BR> <BR> 
+    <marquее  width=800 bgCоlor="#99ff00" hеight=50 behаvior="Alternаte"> 
+        <FONT colоr="#8b008b" FACE="Verdаna" Size="4"> <B> <I>
+            <title>Бегущая строка текста в HTML</title>
+        </head>
+        Текст у рядку коливається з боку в бік.
+        <body>
+        <marquee behavior="alternate" direction="right">Бігаюча строка</marquee>
+        Текст пробігає справа наліво та з’являється знову.
+        <body>
+            <marquee behavior="scroll" direction="left">Бігаюча строка</marquee>
+        Текст у рядку пробігає  зліва направо та зупиняється.
+        <body>
+            <marquee behavior="slide" direction="right">Бігаюча строка</marquee>
+        Текст у рядку пробігає  з затримкою 120мс
+        <body>
+            <marquee behavior="scrolldelay=120" direction="right">Бігаюча строка</marquee>
+        Текст у рядку пробігає  з затримкою 150мс
+        <body>
+            <marquee behavior="scrolldelay=150" direction="right">Бігаюча строка</marquee>
+ </bоdy>
+   </html> -->
+   <!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>4.1Рядок, що біжить
+</title>
+    <style>
+        .main {
+            text-align: center;
+        }
+         
+        .marq {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1 style="color:rgb(0, 0, 0); text-align:center;">
+      Бігаючі строки
+      
+  </h1>
+  <div class="main">
+  Текст у рядку коливається з боку в бік.
+    <marquee class="marq"
+        bgcolor="Lightgray"
+        direction="right"
+        behavior="alternate">
+Бігаюча строка
+</marquee>
+
+  
+  Текст пробігає справа наліво та з’являється знову.
+    <marquee class="marq"
+        bgcolor="anchor"
+        direction="shadow"
+        behavior="scroll">
+    Бігаюча строка
+</marquee>
+
+  
+      Текст у рядку пробігає  зліва направо та зупиняється.
+      <marquee class="marq"
+      bgcolor="lead"
+      direction="right"
+      behavior="slide">
+ Бігаюча строка
+</marquee>
+    Текст у рядку пробігає  з затримкою 85  
+       
+      <marquee class="marq"
+                 bgcolor="Gray"
+                 direction="left"
+                 loop="">
+            Бігаюча строка
+        </marquee>
+    
+        Текст у рядку пробігає  з затримкою 100
+    
+    <marquee class="marq"
+                 Scrolldelay=100
+                 bgcolor="Green"
+                 direction="left"
+                 loop="">
+            Бігаюча строка
+        </marquee>
+    </div>
+</body>
+ 
+</html>
